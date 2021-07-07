@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="./index.css" rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <title>Geo links for PWA</title>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <div class="text-container">
+      <p class="text-container__text">Weather forecast for </p>
+      <a
+        class="text-container__link text-container__link_blue"
+        href="geo:37.786971,-122.399677"
+        >San Francisco</a
+      >
+    </div>
+
+    <div class="text-container">
+      <p class="text-container__text">Weather forecast for</p>
+      <a
+        class="text-container__link text-container__link_red"
+        href="geo:55.7504461,37.6174943"
+        >Moscow</a
+      >
+    </div>
+
+    <div class="text-container">
+      <p class="text-container__text">Weather forecast for</p>
+      <a
+        class="text-container__link text-container__link_green"
+        href="geo:43.1150678,131.8855768"
+        >Vladivostok</a
+      >
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
